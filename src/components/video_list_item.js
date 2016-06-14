@@ -2,10 +2,11 @@ import React from 'react';
 
 //argument has property named video - declare a 
 // const video = props.video;
-const VideoListItem = ({video}) => {
+// const onVideoSelect = props.onVideoSelect;
+const VideoListItem = ({video, onVideoSelect}) => {
 	// console.log(video)
 	const imageUrl = video.snippet.thumbnails.default.url;
-	
+
 	return (
 		<li className="list-group-item">
 			<div className="video-list media">
