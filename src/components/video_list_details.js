@@ -1,1 +1,0 @@
-video_details.js
